@@ -12,6 +12,7 @@ import { SelectItem } from 'primeng/api';
 })
 export class BlankPageComponent implements OnInit {
     cities1: SelectItem[];
+    selectedCity1: string;
 
     constructor() {
         this.cities1 = [
